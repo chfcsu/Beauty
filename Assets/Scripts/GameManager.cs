@@ -334,7 +334,7 @@ public class GameManager : MonoBehaviour {
     private void ChangeFace()
     {
         Texture2D m_texture = Resources.Load<Texture2D>("face-2");
-        Sprite sprite1 = Sprite.Create(m_texture, new Rect(0, 0, m_texture.width, m_texture.height), Vector2.one * 0.5f, 300);
+        Sprite sprite1 = Sprite.Create(m_texture, new Rect(0, 0, m_texture.width, m_texture.height), Vector2.one, 300);
         if (sex == 1)
             GameObject.Find("face_l").GetComponent<SpriteRenderer>().sprite = sprite1;
         if (sex == 0)
