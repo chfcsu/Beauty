@@ -74,7 +74,7 @@ public class CreatQRCode : MonoBehaviour
         QRCode.texture = texture;//显示到UI界面的图片上
     }
 
-
+    //hihihi
 
 }//public class CreatQRCode : MonoBehaviour {
 
